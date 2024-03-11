@@ -28,9 +28,10 @@ function App() {
        {logado ? <p> Logado</p> : <p> Deslogado</p>}
        <button onClick={Logar}> Logar</button>
        <button onClick={Deslogar}> Deslogar</button>
+       <a>Teste</a>
    
     </div>
-  );
+  ); 
 }
 
 export default App;
